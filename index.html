@@ -7,6 +7,7 @@
     <meta name="msapplication-config" content="none">
     <meta name="robots" content="noindex">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Prata&display=swap" rel="stylesheet">
     <title>Duluth Hiker House</title>
     <script type="text/javascript">document.createElement('picture');</script>
     <script src="js/picturefill.min.js" async></script>
@@ -19,6 +20,7 @@
             <ul class="nav-container">
                 <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
                 <li class="nav-item"><a href="about.html" class="nav-link">About<span>&nbsp;the house</span></a></li>
+                <li class="nav-item"><a href="activities.html" class="nav-link">Things to do</a></li>
 <!--                <li class="nav-item"><a href="lease-details.html" class="nav-link">Lease details</a></li>-->
             </ul>
         </nav>
@@ -81,18 +83,23 @@
                         <div class="activity-label clearfix">Birding</div>
                     </a></li>
                 </ul>
-                <a href="activities.html" class="btn activities-more">Other Duluth activities</a></div>
+                <a href="activities.html" class="btn activities-more">Duluth activities</a></div>
         </div>
-        <a href="about.html">
-            <picture>
-                <source media="(max-width: 540px) and (min-resolution: 1.1dppx)" srcset="assets/img/small/room-collage.jpg"/>
-                <source media="(max-width: 540px)" srcset="assets/img/tiny/room-collage.jpg"/>
-                <source media="(min-width: 541px) and (max-width: 1024px) and (min-resolution: 1.5dppx)" srcset="assets/img/tablet/2x-room-collage.jpg"/>
-                <source media="(min-width: 541px) and (max-width: 1024px)" srcset="assets/img/tablet/room-collage.jpg"/>
-                <source media="(min-width: 1025px)" srcset="assets/img/desktop/room-collage.jpg"/>
-                <img srcset="assets/img/room-collage.jpg"/></picture>
-        </a>
-        <div class="panel no-padding interior"><a href="about.html" class="btn more photos">About our house</a></div>
+        <div class="interior-pictures">
+            <div class="image-bar"></div>
+            <a href="about.html">
+                <picture>
+                    <source media="(max-width: 540px) and (min-resolution: 1.1dppx)" srcset="assets/img/small/room-collage.jpg"/>
+                    <source media="(max-width: 540px)" srcset="assets/img/tiny/room-collage.jpg"/>
+                    <source media="(min-width: 541px) and (max-width: 1024px) and (min-resolution: 1.5dppx)" srcset="assets/img/tablet/2x-room-collage.jpg"/>
+                    <source media="(min-width: 541px) and (max-width: 1024px)" srcset="assets/img/tablet/room-collage.jpg"/>
+                    <source media="(min-width: 1025px)" srcset="assets/img/desktop/room-collage.jpg"/>
+                    <img srcset="assets/img/room-collage.jpg"/></picture>
+            </a>
+        </div>
+        <div class="panel interior">
+            <a href="about.html" class="btn more photos">A look around</a>
+        </div>
         <div class="panel second-panel"><p>The two-bedroom, two-bath house sits on a quarter acre with woods and a small stream. It's a block from the Superior
             Hiking Trail and Hartley Park.</p>
             <p>The house feels like a cabin, with a loft that includes a master suite with a large stone-lined steam shower and a double whirlpool overlooking
@@ -103,6 +110,9 @@
                 dryer.</p>
             <p>There are patios with perennial gardens in front and also in the fenced side yard.</p>
             <p>The house is just off Woodland Avenue and is easily reached by car or the No. 13 bus to UMD and downtown.</p>
+
+<!--            <h2>Amenities</h2>-->
+
             <ul class="amenities">
                 <li class="amenity">
                     <div class="icon-wrap">
@@ -151,10 +161,10 @@
                     <span>Wifi / Internet</span></li>
             </ul>
         </div>
-        <div class="panel availability"><h2>Availability</h2>
-            <div id="calendar" class="calendar-container"><p></p></div>
-            <div class="calendar-legend"></div>
-        </div>
+<!--        <div class="panel availability"><h2>Availability</h2>-->
+<!--            <div id="calendar" class="calendar-container"><p></p></div>-->
+<!--            <div class="calendar-legend"></div>-->
+<!--        </div>-->
     </div>
     <footer>
         <div>&copy; 2016-<span id="current-year"></span> Duluth Hiker House</div>
