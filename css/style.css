@@ -307,7 +307,8 @@ header {
 
     .activity-section {
         flex-basis: 50%;
-        padding: 0 15px
+        padding: 0 15px;
+        margin-top: 25px;
     }
 
     .activities-page h1 {
